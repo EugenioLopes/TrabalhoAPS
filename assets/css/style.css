@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to top, #31ceda, #12919b);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(to left, #e8feff, #87edf4, #16d4e2);
+}
+
+h1{
+    background: linear-gradient(to left, #457478, #266c71, #03656c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    background-color: #1cccd9;
+    width: 600px;
+    height: 450px;
+    margin: 50px auto 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(78, 78, 78);
+}
+
+.container-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-top: -10px;
+}
+
+form input{
+    height: 30px;
+    margin-top: -10px;
+    width: 100%;
+    background-color: #f0f0f0ca;
+    padding-left: 10px;
+}
+
+form button {
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: green;
+    color: #e1e1e1;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+form label{
+    font-size: 1.2rem;
+}
+
+form button:hover {
+    background-color: #1aa2ac;
+    color: #fff;
+}
+
+#uotFotoCartao {
+    display: flex;
+    justify-content: center;
+}
+
+#uotFotoCartao img{
+    width: 400px;
+}
+
+p {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}

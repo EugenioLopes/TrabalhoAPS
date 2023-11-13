@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação Cartão</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <header>
+        <h1>Validação de Cartão de Crédito</h1>
+    </header>    
+        <div class="container-form">
+            <form action="">
+                <label for="inNumeroCartao">Nome no cartão</label><br />
+                <input type="text" name="inNomeCartao" id="inNomeCartao" /><br />
+                <label for="inNumeroCartao">Número do Cartão</label><br />
+                <input type="text" name="inNumeroCartao" id="inNumeroCartao" /><br />
+                <label for="inCodigoSeguranca"
+                >Digite o código de segurança com 3 dígitos na parte de trás do cartão</label
+                ><br />
+                <input
+                type="number"
+                name="inCodigoSeguranca"
+                id="inCodigoSeguranca"
+                /><br />
+                <label for="inData">Data de validade do Cartão</label><br />
+                <input
+                type="text"
+                name="inData"
+                id="inData"
+                placeholder="MM/YY"
+                /><br />
+                
+                <button type="button" id="btnCadastro">Cadastrar cartão</button>
+                <p id="validacao"></p>
+            </form>
+        </div>
+        <div id="uotFotoCartao"></div>
+        <script src="./assets/script/index.js"></script>
+</body>
+</html>
